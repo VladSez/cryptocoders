@@ -1,0 +1,200 @@
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name='viewport'
+         content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+      <title>Title</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+   <body>
+      <div id ="body">
+         <nav>
+            <div id = "menu">
+               <p>About</p>
+               <p id="nav-menu-el">Contacts</p>
+               <img src="./images/msg.png" width="24" height="18" />
+            </div>
+         </nav>
+         <section id="section-first">
+          <div id="circle-container">
+            <div class="circle" id="circle-checked"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+            <div id="content-container">
+              
+               <div id="section-first-container-logo">
+                  <img src="./images/CryptoCodersTest.png" width="600" id="content-container-logo"/>
+               </div>
+              
+               
+               <p id="content-container-txt">YOUR SMART CONTRACT HERE</p>
+               <input type="button" value="ORDER" class="call-to-action-btn"/>
+            </div>
+            <div class="year-el">2017</div>
+            <div id ="icons-container">
+               <img src="./icons/facebook-logo.svg" class="icons-container-el"/>
+               <img src="./icons/telegram-logo.svg" class="icons-container-el"/>
+               <img src="./icons/slack-symbol.svg"  class="icons-container-el"/>
+               <img src="./icons/twitter.svg"  class="icons-container-el"/>
+            </div>
+         </section>
+      </div>
+      <div id="section-form">
+         <section>
+            <div id ="form-container">
+               <h3 class ="form-container-header">Fill out the form</h3>
+               <div id="form">
+                  <div class="form-el">
+                     <span class="form-el-description">Your name </span>
+                     <input type="text"
+                        class="form-input"
+                        placeholder="John Doe"
+                        />
+                  </div>
+                  <div class="form-el">
+                     <p class="form-el-description" id="form-el-description-email">Your e-mail </p>
+                     <input type="text"
+                        class="form-input"
+                        placeholder="john@doe.com"
+                        /> 
+                  </div>
+                  <div class="form-el-txtarea-container">
+                     <span id="form-el-txt-description">Short description of the project</span>
+                     <textarea id="form-el-txtarea"></textarea>
+                  </div>
+                  <div id="dates-container">
+                     <div>
+                        <span class="form-el-description-date">Start date </span>
+                        <input type="text"
+                           class="form-input-date"
+                           placeholder="MM/DD/YYYY"
+                           id="form-input-date-one"
+                           /> 
+                     </div>
+                     <div>
+                        <span class="form-el-description-date">Finish date </span>
+                        <input type="text"
+                           class="form-input-date"
+                           placeholder="MM/DD/YYYY"
+                           id="form-input-date-two"
+                           /> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id = "section-checkbox">
+               <h3 class ="form-container-header">Add to your smart contract</h3>
+               <div id = "section-checkbox-cols">
+                  <div class = "section-checkbox-col-1">
+                     <div class = "section-checkbox-header">
+                       <div class="checkbox-container">
+                        <span class="section-checkbox-header-el">Cap</span>
+                            <label class="container">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                            </label>                 
+                             </div>
+                         <ul class="section-checkbox-list">
+                          <li class="section-checkbox-list-el">Soft Cap</li>
+                          <li class="section-checkbox-list-el">Hard Cap</li>
+                        </ul>
+                     </div>
+                     <div class = "section-checkbox-header">
+                       <div class="checkbox-container">
+                        <span class="section-checkbox-header-el">Whitelist</span>
+                             <label class="container">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                            </label>                       
+                            </div>
+                            </div>
+                     <div class = "section-checkbox-header">
+                       <div class="checkbox-container">
+                        <span class="section-checkbox-header-el">Manual Minting</span>
+                               <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>      
+                       </div>
+                  </div>
+                  </div>
+                  <div class = "section-checkbox-col-2">
+                     <div class = "section-checkbox-header" id="section-checkbox-header-col-2">
+                        <div class="checkbox-container">
+                        <span class="section-checkbox-header-el">Transferability</span>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>           
+                            </div>
+                           <ul class="section-checkbox-list">
+                          <li class="section-checkbox-list-el">Owner with Holder Approvement</li>
+                          <li class="section-checkbox-list-el">Holder</li>
+                          <li class="section-checkbox-list-el">Enable/Disable</li>
+                        </ul>
+                     </div>
+            
+                     <div class = "section-checkbox-header">
+                        <div class="checkbox-container">
+                        <span class="section-checkbox-header-el">Upgradeability</span>
+                       <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>      
+                            </div>          
+                        </div>
+                  </div>
+                  <div class = "section-checkbox-col-3">
+                     <div class = "section-checkbox-header">
+                       <div class="checkbox-container">
+                        <span class="section-checkbox-header-el">Ether Cold Storage Wallet</span>
+                            <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label> 
+                            </div>                   
+                      </div>
+                  </div>
+               </div>
+            </div>
+            <div id="special-price-container">
+               <div id="special-price-content">
+               <div>
+                <div class="checkbox-container">
+                     <span id="special-price-content-header">ICO Pack</span>
+                          <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>      
+                         </div>
+                 <ul class="section-checkbox-list">
+                     <li class="section-checkbox-list-el">Customer Smart Contact</li>
+                     <li class="section-checkbox-list-el">Landing Page</li>
+                     <li class="section-checkbox-list-el">Crypto wallet</li>
+                  </ul>
+                  </div>
+                  <div id="special-price-container-icon">
+                     <img src ="./images/priceTest.png" width="135" id="specialPrice-img"/>
+                  </div>
+               </div>
+               <input type="button" value="BUY" class="call-to-action-btn" id="specialPrice-btn"/>
+            </div>
+            <div id ="footer">
+               <div id="footer-container-img">
+                  <img src="./images/pinkLogoTest.png" width="250" id="content-container-logo"/>
+               </div>
+               <div class="year-el" id ="footer-year-el">2017</div>
+               <div id ="icons-container">
+                  <img src="./icons/pinkFB.svg" class="icons-container-el"/>
+                  <img src="./icons/pinkTelgr.svg" class="icons-container-el"/>
+                  <img src="./icons/pinkSlack.svg"  class="icons-container-el"/>
+                  <img src="./icons/pinkTwit.svg"  class="icons-container-el"/>
+               </div>
+               <div id="footer-container-txt">
+                  &copy;CRYPTOCODERS
+               </div>
+            </div>
+         </section>
+      </div>
+   </body>
